@@ -1,0 +1,42 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.pratap.cardviews1.MainActivity" >
+
+    <item
+        android:id="@+id/action_add"
+        android:icon="@drawable/ic_action_add"
+        android:orderInCategory="100"
+        android:title="@string/action_search"
+        app:showAsAction="ifRoom"/>
+    <item
+        android:id="@+id/action_delete"
+        android:icon="@drawable/ic_action_delete"
+        android:orderInCategory="100"
+        android:title="@string/action_search"
+        app:showAsAction="ifRoom"/>
+    <item
+        android:id="@+id/action_search"
+        android:icon="@drawable/ic_action_search"
+        android:orderInCategory="100"
+        android:title="@string/action_search"
+        app:showAsAction="ifRoom"/>
+    <item
+        android:id="@+id/action_settings"
+        android:orderInCategory="100"
+        android:title="@string/action_settings"
+        app:showAsAction="ifRoom"/>
+
+</menu>
+<!--Menus are a common user interface component in many types of applications
+The <item> element supports several attributes you can use to define an item's appearance and behavior. The items in the above menu include the following attributes:
+
+android:id
+A resource ID that's unique to the item, which allows the application to recognize the item when the user selects it.
+android:icon
+A reference to a drawable to use as the item's icon.
+android:title
+A reference to a string to use as the item's title.
+android:showAsAction
+Specifies when and how this item should appear as an action item in the app bar.
+These are the most important attributes you should use, but there are many more available. For information about all the supported attributes, see the Menu Resource document.-->
